@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.86.42.178:8181/oceanfront/repository/TeslaRelease/</url>
+	      <url>http://44.202.241.228:8181/oceanfront/repository/TeslaRelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.87.26.100:8181/oceanfront/repository/TeslaSnapshot//</url>
+	      <url>http://44.202.241.228:8181/oceanfront/repository/TeslaSnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
