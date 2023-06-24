@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>testapp</finalName>
+		<finalName>Tinuapp</finalName>
 		
 		<plugins>
 			<plugin>
