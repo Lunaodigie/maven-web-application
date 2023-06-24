@@ -6,13 +6,13 @@ node{
   stage('2Test+build'){
     sh "${mavenHome}/bin/mvn clean package"
   }
+/*
   stage('SonarQube'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   }
   stage('4UploadArtifacts'){
     sh "${mavenHome}/bin/mvn deploy"
   }
-
   stage('5Deploy'){
     deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://107.23.142.156:8177')], contextPath: null, war: 'target/*war'
   }
@@ -21,4 +21,5 @@ Build status
 emailext body: '''Hello Team,
 Job completed''', recipientProviders: [requestor(), buildUser()], subject: 'Build Status', to: 'developers'
   }
+*/
 }
