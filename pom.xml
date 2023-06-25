@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.202.91.121:8181/oceanfront/repository/Toyota-releases/</url>
+	      <url>http://44.202.91.121:8181/oceanfront/repository/Tinu-multi-app-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.202.91.121:8181/oceanfront/repository/Toyota-snapshot/</url>
+	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <url>http://44.202.91.121:8181/oceanfront/repository/Tinu-multi-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>ToyotaApp</finalName>
+		<finalName>tinu-multi-app</finalName>
 		
 		<plugins>
 			<plugin>
