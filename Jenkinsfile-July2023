@@ -6,7 +6,6 @@ node{
   stage('2Test+build'){
     sh "${mavenHome}/bin/mvn clean package"
   }
-/*
   stage('SonarQube'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   }
@@ -21,5 +20,4 @@ Build status
 emailext body: '''Hello Team,
 Job completed''', recipientProviders: [requestor(), buildUser()], subject: 'Build Status', to: 'developers'
   }
-*/
 }
